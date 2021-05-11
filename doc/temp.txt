@@ -1,0 +1,9 @@
+1、下载项目到本地并解压；
+2、将项目使用IDE以maven的形式导入；
+3、将数据库导入Navicat中（sql在文件夹sql/db_mall_starsea.sql）；
+4、修改配置文件（application.properties）中数据库名、用户名、密码；
+5、将图片文件解压到任意盘符下（图片在文件夹doc/upload.zip）；
+6、修改com.siro.mall.common.Constants文件的 FILE_UPLOAD_DIC 字段，改为你解压图片的路径；
+7、运行StarseaMallApplication类的main方法；
+8、浏览器上访问 localhost:8080 即可。
+前台用户密码自行注册，后台用户名：starsea，密码：111111
